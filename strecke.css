@@ -1,0 +1,164 @@
+
+
+/* content styles */
+#content{
+
+    width: 100%;
+    min-height: 100vh;
+    min-width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-template-rows: 180px  auto auto 200px  auto auto ; */
+}
+#content{
+
+    width: 100%;
+    min-height: 100vh;
+    min-width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 180px  auto auto 200px  auto auto ;
+}
+
+ /* logo */
+
+
+
+
+/* main styles */
+/*  */
+/* main strecke */
+main.strecke{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 35rem  auto auto auto auto;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding: 1rem;  
+    z-index: 0;
+    margin-top: 0;
+    height: auto;
+}
+
+@media screen and (max-width:900px){
+
+    main.strecke{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        width: 60%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns:  auto ;
+        grid-template-rows: 35rem  auto auto auto auto;
+        grid-column-gap: 1rem;
+        grid-row-gap: 0rem;
+        padding: 0em;  
+        z-index: 0;
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+       
+    }
+    article{
+        margin-left: 0;
+    }
+}
+/* mehr informationen */
+
+
+.as b{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+
+
+article a{
+    color: #73a0bf;
+}
+
+figcaption{
+font-size: 0.7rem;
+
+}
+
+.quelle{
+    font-size: 12px;
+}
+article img.pano{
+width: 80%;
+}
+
+
+
+table{
+    border-collapse: collapse;
+    margin: 5rem 10rem;
+    
+}
+table td, th{
+    border: 1px solid #ddd;
+    padding:8px;
+}
+table th{
+    padding: 1rem;
+    background-color: #344152;
+    color: #fff;
+}
+table tr:nth-child(even){
+background-color: #f2f2f2;
+}
+table tr:hover{
+    background-color: #ddd;
+}
+
+
+
+/* impressum */
+main.imp{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows:auto auto ;
+    padding: 0px;
+}
+p.imp{
+    background-image: url("bilder/ss.jpg");
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+    font-size: 2rem;
+    
+    display: grid;
+
+    align-items: center; 
+    text-align: center;
+    padding:  0;
+    
+
+    /* justify-content: space-around; */
+    /* padding-left: 2rem; */
+}
+main article.imp{
+    margin-top: 20rem;
+    padding: 4rem;
+}
+#contentimp{
+    width: 100%;
+
+    /* min-width: 50vw; */
+    display: grid;
+
+    grid-template-columns:23px 200px auto auto;
+    grid-template-rows:   auto   auto auto ;
+}
+
+
