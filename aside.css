@@ -1,0 +1,39 @@
+aside{
+    border-top: 0.5rem solid #0e273a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #cde3ff;
+    background-color: #344152;
+    height: 14rem;
+    grid-column: 1/3;
+    grid-row: 6/7;
+    margin: 0.5;
+    background-image: url("bilder/aside.gif");
+    background-size: cover;
+}
+
+aside b{
+    font-size: 1.5rem;
+}
+
+
+
+
+@media screen and (max-width:900px){
+
+    aside{
+        display: block;
+        text-align: center;
+        height: 250px;
+        font-size: 0.75rem;
+        grid-column: 1/2;
+        /* margin-top: 0.5rem;   */
+        grid-row: 6/7;
+    }
+    aside p{
+        padding-top: 0.8rem;
+  
+    }
+
+}
