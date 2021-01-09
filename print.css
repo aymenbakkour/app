@@ -1,0 +1,28 @@
+img{
+    display: none;
+}
+#content{
+    display: grid;
+    grid-template-columns:100% ;
+    margin: 0;
+    padding: 5px;
+}
+footer,nav,section,aside{
+    display: none;
+
+}
+b,h1{
+    font-size: 2rem;
+}
+main,article{
+    display: block;
+    margin: 0;
+    padding: 5px;
+}
+article{
+    width: 800px;
+    position: relative;
+}
+body{
+    width: 800px;
+}

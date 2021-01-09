@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+    b{
+        font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h1{
+    display: inline;
+}
+
+#content{
+
+    width: 100%;
+    min-height: 100vh;
+    min-width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 180px  auto auto 200px  auto auto ;
+}
+#content_tour{
+
+    width: 100%;
+    min-height: 100vh;
+    min-width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 180px  auto auto 200px  auto auto ;
+}
+/* content styles */
+#content_start{
+    width: 100%;
+    min-height: 100vh;
+    min-width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20%    20% 5%;
+}
+.kontakt{
+    width: 100%;
+
+    margin: 0 ;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 180px  ;
+}
+.contentimp{
+
+    width: 100%;
+    min-height: 100vh;
+    min-width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 180px  auto auto 200px  auto auto ;
+}
+@media screen and (max-width:900px){
+
+    #content,#contentimp{
+        width: 100%;
+        margin:0;
+        display: grid;
+        grid-template-columns:  100%;
+        grid-template-rows: 23px 150px  460px 5%;;
+    }
+   
+    /*start  header styles max 900px */
+
+    #logo{
+        padding-bottom: 4rem;
+    }
+    .kontakt{
+        width: calc(100%-1rem);
+        margin: 0;
+    }
+    .an{
+        
+            width: 100%;
+            margin:0;
+            display: grid;
+            grid-template-columns:  100%;
+            grid-template-rows: 23px 150px  460px 5%;;
+       
+    }
+
+
+}

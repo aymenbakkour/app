@@ -1,0 +1,42 @@
+footer{
+
+    background-color: #0e273a;
+    padding: 1rem 0px ;
+    grid-column: 1/3;
+    grid-row: 7/8;
+}
+footer div{
+    display: flex;
+    color: #fff;
+    padding-right:6rem;
+    justify-content: space-around;
+}
+footer span{
+    color:#000000 ;
+}
+footer a:hover{
+    background-color: #ffffff;
+    color:rgb(0, 0, 0) ;
+}
+    
+    
+    
+    @media screen and (max-width:900px){
+    footer{
+        font-size: 0.75rem;
+        background-color: #0e273a;
+        padding: 5px ;
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    footer span{
+        color:#665531 ;
+    }
+    footer div{
+        display: flex;
+        color: #fff;
+        padding-right:1rem;
+        justify-content: space-around;
+    }
+
+}

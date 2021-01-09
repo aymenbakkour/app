@@ -1,0 +1,38 @@
+   section{
+       grid-column:1/2 ;
+       grid-row: 5/6;
+       height: 12rem;
+   }
+   section img{
+    height: 5rem;
+    /* padding: 20rem; */
+}
+section{
+    height: 10rem;
+    border-top: 3px dotted  #344152;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
+.section_kontakt{
+    height: 10rem;
+    border-top: 3px dotted  #344152;
+    background-color: #fff;
+
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    grid-area: 3/1/4/3;
+}
+
+@media screen and (max-width:900px){
+    section{
+        grid-column:1/2 ;
+        grid-row: 5/6;
+        height: 12rem;
+    }
+}
